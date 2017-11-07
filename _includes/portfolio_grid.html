@@ -22,7 +22,7 @@
                     {% assign isEvent = 1 %}
                     <li>
                       <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}} </a>
-                      <div class='eventSub'><a href="https://mozillascience.github.io/study-group-orientation/3.4-add-event.html">{{ post.text }}</a></div>
+                      <div class='eventSub'><p>{{ post.text }}</p></div>
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -39,7 +39,7 @@
                 {% endif %}
               </ul>
               <!--past events-->
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<!--              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                   <div class="panel-heading text-center" role="tab" id="headingOne">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class='btn btn-xl'>
@@ -71,8 +71,8 @@
                   </div>
                 </div>
               </div>
-
             </div>
+--> 
             {% if site.calendar_on %}
             <div class="col-lg-6">
             {% else %}
