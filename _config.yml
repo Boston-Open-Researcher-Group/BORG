@@ -3,8 +3,9 @@
 
 #Step 1: give your study group a name and a short description,
 #and choose a language from the options in the _data directory:
-title: Our Study Group
-description: "A study group."
+
+title: "Boston Open Researchers Group"
+description: "Opening Research"
 language: en
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
@@ -12,14 +13,14 @@ language: en
 # That's it, your website is all set up!
 # You can see it at https://YourUserName.github.io/studyGroup/
 # No need to change anything below this line.
-# To make your first event, check out the instructions at https://github.com/mozillascience/studyGroup#how-to-launch-a-new-event
+# To make your first event, check out the instructions at https://github.com/mozillascience/studyGroup#how-to-launch-a-new-eventy
 # Having trouble? Open a new issue at https://github.com/mozillascience/studyGroup/issues and we'll help you out ASAP!
 
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome To Our Study Group!"
+headlineSmall: "Boston Open Researchers Group!"
 headlineMain: "Let's Work Together"
 
 # Setup Google Calendar
