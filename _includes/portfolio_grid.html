@@ -21,12 +21,13 @@
                   {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
                     {% assign isEvent = 1 %}
                 <li>
-		  <div class="bu-event row">
-                    <div class="bu-event-date col-lg-2 col-lg-offset-2">
+		  <div class="borg-event row">
+                    <div class="borg-event-date col-lg-2 col-lg-offset-2">
                       <ul>
                         <li>{{ post.date | date: "%B" }}</li>
                         <li>{{ post.date | date: "%-d" }}</li> 
-                        <li>{{ post.date | date: "%Y"}}<li>
+                        <li>{{ post.date | date: "%Y"}}</li>
+			<li>{{ post.startTime | date:"%r" }}</li> 
                       </ul>
                     </div> 
                     <div class="col-lg-6">
