@@ -16,3 +16,61 @@
     white-space: initial;
   }
 }
+
+/* * * * * * * * * * * * * * * 
+							 
+	BORG Events Styles 
+
+* * * * * * * * * * * * * * */
+.borg-event {
+	text-align: left; 
+}
+
+.borg-event-date {
+	margin-top: 24px; 
+}
+.borg-event-date > ul {
+	list-style: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.borg-event-date > ul > li:first-child,
+.borg-event-date > ul > li:nth-child(3) {
+	font-size: 150%; 
+}
+
+.borg-event-date > ul > li:nth-child(2) {
+	font-size: 400%; 
+}
+
+.events, 
+.borg-event-date,
+.borg-event-date > ul {
+	padding: 0;
+}
+
+ul.events {
+	text-align: center; 
+	margin-top: 10px; 
+}
+
+.events > li {
+	margin: 30px 0;
+}
+
+.eventDesc > p {
+	font-size: 105%; 
+}
+
+section h3.section-subheading {
+	margin-bottom: 0px; 
+}
+
+.talk-btn {
+	margin-top: 15px; 
+}
+
+.eventSuggest {
+    margin-top: 1em;
+}
