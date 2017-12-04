@@ -4,14 +4,14 @@ description: "The Boston Open Researcher Group"
 url: "https://boston-open-researcher-group.github.io/"
 
 # Secondary Parameters
-baseurl: "/website"
+baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: "img/logos/borg.png"
 
 # Tertiary Parameters
 github_username:  Boston-Open-Researcher-Group
-project_repository: 
+project_repository:
 #twitter_username: KMMoerman
 
 # Build settings
