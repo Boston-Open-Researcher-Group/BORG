@@ -8,6 +8,9 @@ header-img: "img/home-bg.jpg"
 
 # About the BORG
 *To promote open research and open science practices*   
+
+![BORG](img/borg_talk.gif)   
+
 ## What we do
 **Skill Sharing**   
 Share your favorite coding skills and tools with your friends and colleagues in friendly, no-pressure work-alongs.
