@@ -4,7 +4,7 @@ description: "The Boston Open Researcher Group"
 url: "https://boston-open-researcher-group.github.io/"
 
 # Secondary Parameters
-baseurl: ""
+baseurl: "website"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: "img/logos/borg.png"
