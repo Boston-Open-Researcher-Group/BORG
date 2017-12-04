@@ -1,49 +1,153 @@
-#Setup ~~~
-#Follow these 2 steps to set up your site.
+# Site settings
+title: BORG
+description: "The Boston Open Researcher Group"
+url: "https://boston-open-researcher-group.github.io/"
 
-#Step 1: give your study group a name and a short description,
-#and choose a language from the options in the _data directory:
+# Secondary Parameters
+baseurl: "/website"
+header-img: img/home-bg.jpg
+headercolor: "#FFFFFF"
+logo: "img/logos/borg.png"
 
-title: "Boston Open Researchers Group"
-description: "Opening Research"
-language: en
-
-#Step 2: press the green 'Commit Changes' button at the bottom of this page.
-
-# That's it, your website is all set up!
-# You can see it at https://YourUserName.github.io/studyGroup/
-# No need to change anything below this line.
-# To make your first event, check out the instructions at https://github.com/mozillascience/studyGroup#how-to-launch-a-new-eventy
-# Having trouble? Open a new issue at https://github.com/mozillascience/studyGroup/issues and we'll help you out ASAP!
-
-# Optional Configuration
-# None of these things need to be changed - but feel free!
-
-titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Boston Open Researchers Group!"
-headlineMain: "Let's Work Together"
-
-# Setup Google Calendar
-# Usage:
-# 1. create a new google account; set the calendar to 'public' (see https://support.google.com/calendar/answer/37083?hl=en on how to do this)
-# 2. change 'USER' in the example urls below to the username of the google account you made for your calendar
-# 3. set calendar_on: True.
-
-calendar_on: False
-calendar_embed_url: "https://www.google.com/calendar/embed?src=USER@gmail.com"
-calendar_ical_url: "https://www.google.com/calendar/ical/USER@gmail.com/public/basic.ics"
-
-
-#========================================
-# No touching anything below this line :)
-#========================================
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 333
+# Tertiary Parameters
+github_username:  Boston-Open-Researcher-Group
+project_repository: 
+#twitter_username: KMMoerman
 
 # Build settings
+gems: [jekyll-paginate]
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
-future: true
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Jekyll Settings
+
+defaults:
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"
+      header-img: "img/home-bg.jpg"
+
+# Prose Settings
+prose:
+  ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
+  siteurl: 'https://projectpages.github.io/project-pages/'
+  ispp: true
+  media: 'img'
+  metadata:
+    projects:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Project"
+          value: ""
+    _posts:
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Sub-Title (Short Description)"
+          value: ""
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Choose Layout"
+          placeholder: "Layouts"
+          options:
+            - name: "Post"
+              value: "post"
+            - name: "Slide"
+              value: "slide"
+            - name: "Projector"
+              value: "projector"
+            - name: "Notebook"
+              value: "notebook"
+            - name: "Ply Surface"
+              value: "plysurface"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags (seperate with whitespace)"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Project"
+          value: ""
+      - name: "horizontal"
+        field:
+          element: "hidden"
+          value: </section></section><section markdown="1" data-background="https://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
+      - name: "vertical"
+        field:
+          element: "hidden"
+          value: </section><section markdown="1">
+      - name: "slideinit"
+        field:
+          element: "hidden"
+          value: <section markdown="1" data-background="https://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
+      - name: "theme"
+        field:
+          element: "select"
+          label: "Theme (Slide)"
+          placeholder: "Theme (Slide)"
+          options:
+            - name: "Beige"
+              value: "beige"
+            - name: "Blood"
+              value: "blood"
+            - name: "Moon"
+              value: "moon"
+            - name: "Night"
+              value: "night"
+            - name: "Sky"
+              value: "sky"
+            - name: "Solarized"
+              value: "solarized"
+      - name: "trans"
+        field:
+          element: "select"
+          label: "Transition (Slide)"
+          placeholder: "Transition (Slide)"
+          options:
+            - name: "Cube"
+              value: "cube"
+            - name: "Page"
+              value: "page"
+            - name: "Concave"
+              value: "concave"
+            - name: "Linear"
+              value: "linear"
+            - name: "Fade"
+              value: "fade"
+            - name: "None"
+              value: "none"
+      - name: "visualworkflow"
+        field:
+          element: "checkbox"
+          label: "Visual Workflow Chart (Some Layouts)"
+          value: "true"
