@@ -37,11 +37,6 @@ table, th, td {
 				<br />
 			{% endif %}
 
-			{% if people.office %}
-				<i class="copyright text-muted" style="font-size:100%;">Office: {{ people.office }} </i>
-					<br />
-			{% endif %}
-
 			<!-- <div align="left"> -->
 				{% if people.url %}
 						<a href="{{ people.url }}">
@@ -86,15 +81,17 @@ table, th, td {
 		</td>
   </tr>
 </table>
+
 <div>
-{% if people.bio %}
-  <details>
-  <summary><u>Short bio</u></summary>
-  <span style="font-size:65%;">
-    {{ people.bio }}
-  </span>
-  </details>
-{% endif %}
+  {% if people.interests %}
+</br>
+    <details>
+    <summary><b><u>Interests</u></b></summary>
+    <span style="font-size:70%;">
+      {{ people.interests }}
+    </span>
+    </details>
+  {% endif %}
 </div>
 <hr>
 </div>

@@ -9,7 +9,7 @@ header-img: "img/home-bg.jpg"
 # About the BORG
 *To promote open research and open science practices*   
 
-![BORG](img/borg_talk.gif)   
+<img src="{{ site.baseurl }}/img/borg_talk.gif" style="margin-top:0px; margin-bottom:5px; margin-right:10px; width: 25% !important">   
 
 ## What we do
 **Skill Sharing**   

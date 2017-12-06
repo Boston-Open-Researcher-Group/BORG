@@ -21,7 +21,7 @@ Join us for a day on open source software development focusing on using Git, Git
   - Setting up a README
   - Community and contributing guidelines      
 * **12:00-13:00** *Lunch (time for socializing and skill sharing)*
-* **13:00-15:00** Hands-on workshop 2:
+* **13:00-15:00** Hands-on workshop 2
   - Collaborative coding
   - Issues and pull requests
   - Merging and merge conflicts

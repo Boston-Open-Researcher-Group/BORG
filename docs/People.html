@@ -8,6 +8,29 @@ header-img: "img/home-bg.jpg"
 <div>
 
 <h1>The Boston Open Researcher Group</h1> <a name="top"></a>
+<hr>
+<a href="https://boston-open-researcher-group.github.io/BORG/Join">
+  <table style="width:100%" align="center">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+    <td valign="top" align="left">
+			   <img src="{{ site.baseurl }}/img/people/question-mark.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 50% !important">
+	  </td>
+
+    <td valign="top" align="left">
+				<h4>You! </h4>
+				<b>Join the BORG!</b> Become a member, join the discussion, and help promote open science practices in your communitee.
+		</td>
+  </tr>
+</table>
+</a>
+
+<hr>
+
 {% for people in site.data.people %} {% if people.visible == true %}
 	{% include addPerson.html people=site.data.people %}
 {% endif %} {% endfor %}
