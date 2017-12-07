@@ -35,12 +35,12 @@
   visible: true
 
 - name: Timothy Stiles 
-   role: Member  
-   img: tim_crop.jpeg
-   url: https://www.boslab.org
-   github_username: TimothyStiles
-   twitter_username: TimothyStiles
-   linkedin_username: timothysstiles
-   interests: DIYbio, Synthetic Biology, Molecular Biology, Computer Vision, Open Source Science, Open Source Software, Open Hardware
-   type: member
-   visible: true
+  role: Member  
+  img: tim_crop.jpeg
+  url: https://www.boslab.org
+  github_username: TimothyStiles
+  twitter_username: TimothyStiles
+  linkedin_username: timothysstiles
+  interests: DIYbio, Synthetic Biology, Molecular Biology, Computer Vision, Open Source Science, Open Source Software, Open Hardware
+  type: member
+  visible: true
