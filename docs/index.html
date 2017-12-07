@@ -2,27 +2,84 @@
 layout: page
 ---
 
-<h1>EVENTS:</h1>
+<style>
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+    border-color: green;
+    border-radius: 25px; /* 5px rounded corners */
+    background-color: white;
+    margin-bottom: 30px
+}
+.card-text {
+    word-wrap: break-word;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    z-index: 2;
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.05);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.05);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.05);
+transition: all 200ms ease-in;
+transform: scale(1.05);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+</style>
+</head>
+
+<body>
+<p>
+<h1>Upcoming events</h1>
+</p>
 <hr>
 
 {% for post in site.posts %}
-{% if post.category == "Event" %}
-<div class="post-preview">
 
+{% if post.category == "Event" %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture posttime %}{{post.expiration_date | date: '%s'}}{% endcapture %}
+{% if posttime > nowunix %}
+<div class="card" align="left">
     <a href="{{ post.url | prepend: site.baseurl }}" >
-        <h2 class="post-title">{{ post.title }}
-        </h2>
+        <h2 class="post-title">{{ post.title }}</h2>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
+          <b class="post-subtitle">{{ post.subtitle }}</b>
         {% endif %}
         {% if post.thumbnail %}
         <br />
-            <img alt="" src="{{ site.baseurl }}{{ post.thumbnail }}" style="height:200px;">
+            <img alt="" src="{{ site.baseurl }}{{ post.thumbnail }}" style="width:30%;">
         {% endif %}
     </a>
 </div>
 <hr>
 {% endif %}
+{% endif %}
 {% endfor %}
+<br />
+
+
+<h1>Follow the BORG on twitter</h1>
+
+<div>
+    <center>
+  <a href="https://twitter.com/BORG_science" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @GibbonToolbox</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <br>
+<a class="twitter-timeline" data-width="100%" data-height="1200" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/BORG_science">Tweets by the BORG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

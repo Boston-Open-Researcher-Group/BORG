@@ -3,10 +3,14 @@ layout:     post
 title:      Introduction to Open Source Software Development
 author:     Kevin Mattheus Moerman
 tags: 		  post
-subtitle:  	December 19th, MIT Media Lab
+subtitle:  	December 19th, MIT Media Lab, Room E15-341
 category:   Event
 thumbnail:  /img/OSSD_event.jpg
+expiration_date: 2017/12/20
 ---
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9nJj-MK_GpjHC6Fjx1V-5pGUhhj_4ABfHhz69OivCvQuEOQ/viewform"> <img src="{{ site.baseurl }}/img/icons/register.png" style="width:20%;" alt="Register">
+</a>
 
 Join us for a day on open source software development focusing on using Git, GitHub, and selecting an open source license. The tentative schedule is:
 
