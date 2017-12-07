@@ -9,24 +9,82 @@ thumbnail:  /img/OSSD_event.jpg
 expiration_date: 2017/12/20
 ---
 
+### Join us for a day on open source software development focusing on using Git, GitHub, and selecting an open source license. <a name="Top"></a>
+
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9nJj-MK_GpjHC6Fjx1V-5pGUhhj_4ABfHhz69OivCvQuEOQ/viewform"> <img src="{{ site.baseurl }}/img/icons/register.png" style="width:20%;" alt="Register">
 </a>
+<br />
+<img src="{{ site.baseurl }}/img/OSSD_event.jpg" width="30%" style="float:right" alt="OSSD_picture">
 
-Join us for a day on open source software development focusing on using Git, GitHub, and selecting an open source license. The tentative schedule is:
+* [**Location**](#Location)
+* [**Agenda**](#Agenda)
+* [**After party**](#AfterParty)
+* [**Organizers**](#Organizers)
+* [**Links and suggested pre-course study materials**](#materials)
+* [**Want to volunteer/help us?**](#help)
 
-* **8:00-9:00** Doors open/walk in/coffee
-* **9:00-9:45** Introduction to open source software development, git and GitHub   
+### Workshop agenda <a name="Agenda"></a>
+[Location: MIT Media Lab, E15-341](#Location)
+
+* **8:00-9:00** Doors open/coffee
+* **9:00-9:45** Introduction to open source software development and the principles of GIT&GitHub
 * **9:45-10:00** *break*   
 * **10:00-10:45** How to choose an open source license (Deb Nicholson)   
 * **10:45-11:00** *break*   
 * **11:00-12:00** Hands-on workshop 1  
-  - Choosing a license
-  - Uploading work    
+  - Starting a repository and uploading work    
+  - Choosing a license  
   - Setting up a README
-  - Community and contributing guidelines      
+  - Community and contributing guidelines
+  - Setting up documentation and wiki pages      
 * **12:00-13:00** *Lunch (time for socializing and skill sharing)*
+  - Bring your own lunch
 * **13:00-15:00** Hands-on workshop 2
-  - Collaborative coding
-  - Issues and pull requests
-  - Merging and merge conflicts
-* **15:00-17:00** Potential free collaborative working and skill sharing time
+  - Introduction to collaborative coding with GitHub
+  - GIT command line vs GUI's  
+  - Branches, merging, resolving merge conflicts  
+  - Issues, pull requests
+* **15:00-17:00** Free collaborative working, discussion groups, and skill sharing time
+  - Suggested topics:    
+    - Advanced GIT and command line
+    - GitHub pages
+    - Open source licenses
+    - Publishing and citing open source code projects
+
+[_**Back to top**_](#top)  
+
+### After party with boston open drinks <a name="AfterParty"></a>
+* **17:30-...**   
+  - Dinner and drinks at the [Miracle Of Science bar](http://www.miracleofscience.us/) together with the [_**Boston Open Drinks**_](https://twitter.com/BOSopendrinks) people. You can find the Miracle of Science bar [here](#LocationParty).
+
+[_**Back to top**_](#top)  
+
+### Course organizers <a name="Organizers"></a>    
+* **Kevin Moerman**, _MIT Media Lab_   
+* **Will Kearney**, _Boston University_    
+* **Tom Hohenstein**, _Boston University_        
+* **Deb Nicholson**, _Open Innovation Network_
+* **Aaron Jaeger**, _MIT Media Lab_
+
+[_**Back to top**_](#top)  
+
+### Where is the workshop <a name="Location"></a>
+<iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.163393757477!2d-71.08945268358667!3d42.36035697918698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a8b0f310c5%3A0x1a26a6e6bd5f8030!2sMIT+Media+Lab!5e0!3m2!1sen!2sus!4v1503413897192" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+
+[_**Back to top**_](#top)  
+
+### Where is the after party <a name="LocationParty"></a>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1474.038915817397!2d-71.09910652846881!3d42.362180530935234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37754c1bdac55%3A0x4a75302b49575546!2sMiracle+of+Science+Bar+%26+Grill!5e0!3m2!1sen!2sus!4v1512660750256" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+[_**Back to top**_](#top)  
+
+### Links and suggested pre-course study materials <a name="materials"></a>
+* New to GIT and GitHub? see these [_**learning resources**_](https://help.github.com/articles/git-and-github-learning-resources/) and this 10 min. [_**GIT tutorial**_](https://try.github.io/levels/1/challenges/1)
+
+[_**Back to top**_](#top)  
+
+### Want to volunteer/help us? <a name="help"></a>
+**THANKS THAT IS AWESOME!** Tell us how you can help: kmoerman[@]mit[.]edu. If you are already happy with GitHub, you can also help improve our content by collaborating with us [here](https://github.com/Boston-Open-Researcher-Group) and consider [joining the borg](https://boston-open-researcher-group.github.io/BORG/Join/).
+
+[_**Back to top**_](#top)  
