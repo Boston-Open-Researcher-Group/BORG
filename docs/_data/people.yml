@@ -44,3 +44,16 @@
   interests: DIYbio, Synthetic Biology, Molecular Biology, Computer Vision, Open Source Science, Open Source Software, Open Hardware
   type: member
   visible: true
+  
+  - name: JessicaPolka 
+  role: Member  
+  img: JessicaPolka.png
+  url: asapbio.org
+  github_username: jpolka
+  twitter_username: jessicapolka
+  linkedin_username: jessicapolka
+  orcid_id: 0000-0001-6610-9293
+  impactstory_id: u/0000-0001-6610-9293
+  interests: Cell Biology, Synthetic Biology, Molecular Biology, Open Science, Open Access, Preprints 
+  type: member
+  visible: true
