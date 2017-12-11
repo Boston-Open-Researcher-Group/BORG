@@ -11,8 +11,8 @@ logo: "img/logos/borg.png"
 
 # Tertiary Parameters
 github_username:  Boston-Open-Researcher-Group
+twitter_username: BORG_science
 project_repository:
-#twitter_username: KMMoerman
 
 # Build settings
 gems: [jekyll-paginate]
