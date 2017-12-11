@@ -9,19 +9,26 @@ thumbnail:  /img/OSSD_event.jpg
 expiration_date: 2017/12/20
 ---
 
-### Join us for a day on open source software development focusing on using Git, GitHub, and selecting an open source license. <a name="Top"></a>
+### Join us for a free 1-day workshop about _Open Source Software Development_, focusing on using Git, GitHub, and selecting an open source license. <a name="Top"></a>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9nJj-MK_GpjHC6Fjx1V-5pGUhhj_4ABfHhz69OivCvQuEOQ/viewform"> <img src="{{ site.baseurl }}/img/icons/register.png" style="width:20%;" alt="Register">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc9nJj-MK_GpjHC6Fjx1V-5pGUhhj_4ABfHhz69OivCvQuEOQ/viewform"> <img src="{{ site.baseurl }}/img/icons/register.png" width="35%" style="float:left" alt="Register">
 </a>
+<div align="right">
+<a href="https://libraries.mit.edu/">
+ Sponsored by:
+ <img src="{{ site.baseurl }}/img/logos/MIT_libraries.png" width="30%" style="float:right" alt="MIT libraries">
+ </a>
+</div>
 <br />
+<hr>
 <img src="{{ site.baseurl }}/img/OSSD_event.jpg" width="30%" style="float:right" alt="OSSD_picture">
-
 * [**Location**](#Location)
 * [**Agenda**](#Agenda)
 * [**After party**](#AfterParty)
 * [**Organizers**](#Organizers)
 * [**Links and suggested pre-course study materials**](#materials)
 * [**Want to volunteer/help us?**](#help)
+
 
 ### Workshop agenda <a name="Agenda"></a>
 [Location: MIT Media Lab, E15-341](#Location)
@@ -37,8 +44,7 @@ expiration_date: 2017/12/20
   - Setting up a README
   - Community and contributing guidelines
   - Setting up documentation and wiki pages      
-* **12:00-13:00** *Lunch (time for socializing and skill sharing)*
-  - Bring your own lunch
+* **12:00-13:00** *Lunch (time for socializing and skill sharing)*   
 * **13:00-15:00** Hands-on workshop 2
   - Introduction to collaborative coding with GitHub
   - GIT command line vs GUI's  
@@ -53,9 +59,10 @@ expiration_date: 2017/12/20
 
 [_**Back to top**_](#top)  
 
-### After party with boston open drinks <a name="AfterParty"></a>
+### After party with Boston open drinks <a name="AfterParty"></a>
 * **17:30-...**   
-  - Dinner and drinks at the [Miracle Of Science bar](http://www.miracleofscience.us/) together with the [_**Boston Open Drinks**_](https://twitter.com/BOSopendrinks) people. You can find the Miracle of Science bar [here](#LocationParty).
+  - You are invited to join us for dinner and drinks at the [Miracle Of Science bar](http://www.miracleofscience.us/) together with the [_**Boston Open Drinks**_](https://twitter.com/BOSopendrinks) people. You can find the Miracle of Science bar [here](#LocationParty).    
+**Costs for drinks/dinner not included with the event**
 
 [_**Back to top**_](#top)  
 
@@ -69,6 +76,7 @@ expiration_date: 2017/12/20
 [_**Back to top**_](#top)  
 
 ### Where is the workshop <a name="Location"></a>
+December 19th, MIT Media Lab, Room E15-341 (enter via E14, go to 3rd floor)   
 <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.163393757477!2d-71.08945268358667!3d42.36035697918698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a8b0f310c5%3A0x1a26a6e6bd5f8030!2sMIT+Media+Lab!5e0!3m2!1sen!2sus!4v1503413897192" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
 </iframe>
 
