@@ -69,7 +69,7 @@ expiration_date: 2017/12/20
 * **Kevin Moerman**, _MIT Media Lab_   
 * **Will Kearney**, _Boston University_    
 * **Tom Hohenstein**, _Boston University_        
-* **Deb Nicholson**, _Open Innovation Network_
+* **Deb Nicholson**, _Open Invention Network_
 * **Aaron Jaeger**, _MIT Media Lab_
 
 [_**Back to top**_](#top)  
