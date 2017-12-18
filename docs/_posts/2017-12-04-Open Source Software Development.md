@@ -29,11 +29,10 @@ expiration_date: 2017/12/20
 * [**Links and suggested pre-course study materials**](#materials)
 * [**Want to volunteer/help us?**](#help)
 
-
 ### Workshop agenda <a name="Agenda"></a>
 [Location: MIT Media Lab, E15-341](#Location)
 
-* **8:00-9:00** Doors open/coffee
+* **8:45-9:00** Doors open/coffee
 * **9:00-9:45** Introduction to open source software development and the principles of GIT&GitHub
 * **9:45-10:00** *break*   
 * **10:00-10:45** How to choose an open source license (Deb Nicholson)   
