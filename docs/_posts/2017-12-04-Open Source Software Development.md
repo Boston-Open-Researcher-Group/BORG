@@ -100,15 +100,13 @@ December 19th, MIT Media Lab, Room E15-341 (enter via E14, go to 3rd floor)
 * The [_**Atom**_](https://atom.io/) text editor
 * [_**Markdown-Cheatsheet**_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)   
 
-##### Slides:
-* [_**Introduction to GitHub for Collaboration**_](https://docs.google.com/presentation/d/17R2EqTq7GM4RyvdG7bNK_g77r50X5-dufzgc5tBmihs/edit#slide=id.gffadfca75_1_0)
+#### Slides:
+* [_**Introduction to GitHub for Collaboration**_](https://docs.google.com/presentation/d/17R2EqTq7GM4RyvdG7bNK_g77r50X5-dufzgc5tBmihs/edit#slide=id.gffadfca75_1_0)   
+* [_**Aaron slides: Collaborative Git Workflow**_](https://docs.google.com/presentation/d/1bk2EJi1F9FA9281CtNQHb0VWzmR-nUpgHtfssPfX3vY/edit#slide=id.p)   
+* [_**Tom: Getting Your Project Started**_ ](https://docs.google.com/presentation/d/1BSjhX9d5ALve-xHTtluIHo10Ek1byX7rfwWOXTWWBYA/edit?ts=5a3852e9#slide=id.p)   
+* [_**Deb: slides on open source licenses**_](https://www.slideshare.net/freedeb/patents-licensing-and-open-source)
 
-* [_**Aaron slides: Collaborative Git Workflow**_](https://docs.google.com/presentation/d/1bk2EJi1F9FA9281CtNQHb0VWzmR-nUpgHtfssPfX3vY/edit#slide=id.p)
-
-* [_**Tom: Getting Your Project Started**_ ](https://docs.google.com/presentation/d/1BSjhX9d5ALve-xHTtluIHo10Ek1byX7rfwWOXTWWBYA/edit?ts=5a3852e9#slide=id.p)
-
-
-##### Excercises:
+#### Excercises:
 * [_**GitHub Essentials**_](http://joeyklee.github.io/friendly-github-intro/guides/github-essentials/)   
 Get comfortable with the essentials of GitHub. Practice creating a repo, adding resources to your repo, working with issues and labels, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes.
 * [_**GitHub for Collaboration**_](https://mozillascience.github.io/WOW-2017/github/)  
