@@ -71,6 +71,7 @@ expiration_date: 2017/12/20
 * **Tom Hohenstein**, _Boston University_        
 * **Deb Nicholson**, _Open Invention Network_
 * **Aaron Jaeger**, _MIT Media Lab_
+* **Tony Shu**, _MIT Media Lab_
 
 [_**Back to top**_](#top)  
 
@@ -86,12 +87,34 @@ December 19th, MIT Media Lab, Room E15-341 (enter via E14, go to 3rd floor)
 
 [_**Back to top**_](#top)  
 
-### Links and suggested pre-course study materials <a name="materials"></a>
-* New to GIT and GitHub? see these [_**learning resources**_](https://help.github.com/articles/git-and-github-learning-resources/) and this 10 min. [_**GIT tutorial**_](https://try.github.io/levels/1/challenges/1)
+### Want to volunteer/help us? <a name="help"></a>
+**THANKS THAT IS AWESOME!** Tell us how you can help: kmoerman[@]mit[.]edu. If you are already happy with GitHub, you can also help improve our content by collaborating with us [here](https://github.com/Boston-Open-Researcher-Group) and consider [joining the borg](https://boston-open-researcher-group.github.io/BORG/Join/).
 
 [_**Back to top**_](#top)  
 
-### Want to volunteer/help us? <a name="help"></a>
-**THANKS THAT IS AWESOME!** Tell us how you can help: kmoerman[@]mit[.]edu. If you are already happy with GitHub, you can also help improve our content by collaborating with us [here](https://github.com/Boston-Open-Researcher-Group) and consider [joining the borg](https://boston-open-researcher-group.github.io/BORG/Join/).
+### Links and workshop materials <a name="materials"></a>
+* [_**Etherpad**_](http://etherpad.mit.edu/p/BORG) for taking notes, sharing links during Workshop   
+
+* New to GIT and GitHub? see these [_**learning resources**_](https://help.github.com/articles/git-and-github-learning-resources/) and this 15 min. [_**GIT command line tutorial**_](https://try.github.io/levels/1/challenges/1)
+
+* The [_**Atom**_](https://atom.io/) text editor
+* [_**Markdown-Cheatsheet**_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)   
+
+##### Slides:
+* [_**Introduction to GitHub for Collaboration**_](https://docs.google.com/presentation/d/17R2EqTq7GM4RyvdG7bNK_g77r50X5-dufzgc5tBmihs/edit#slide=id.gffadfca75_1_0)
+
+* [_**Aaron slides: Collaborative Git Workflow**_](https://docs.google.com/presentation/d/1bk2EJi1F9FA9281CtNQHb0VWzmR-nUpgHtfssPfX3vY/edit#slide=id.p)
+
+* [_**Tom: Getting Your Project Started**_ ](https://docs.google.com/presentation/d/1BSjhX9d5ALve-xHTtluIHo10Ek1byX7rfwWOXTWWBYA/edit?ts=5a3852e9#slide=id.p)
+
+
+##### Excercises:
+* [_**GitHub Essentials**_](http://joeyklee.github.io/friendly-github-intro/guides/github-essentials/)   
+Get comfortable with the essentials of GitHub. Practice creating a repo, adding resources to your repo, working with issues and labels, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes.
+* [_**GitHub for Collaboration**_](https://mozillascience.github.io/WOW-2017/github/)  
+Get comfortable with a Collaborative workflow in the GitHub interface. Practice adding resources to your repo, working with issues and lables, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes. You'll also practice good communication with contributors.
+* [_**15 min GIT command line tutorial**_](https://try.github.io/levels/1/challenges/1)
+
+
 
 [_**Back to top**_](#top)  
