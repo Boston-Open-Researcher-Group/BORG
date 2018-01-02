@@ -20,3 +20,4 @@ Get together to work on your coding projects, help each other out and share your
 
 **Community Building**   
 Meet new people in your field, organization or community - and find out what we can do when we work together.
+ 
