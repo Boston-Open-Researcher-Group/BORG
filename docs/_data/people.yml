@@ -57,3 +57,12 @@
   interests: Cell Biology, Synthetic Biology, Molecular Biology, Open Science, Open Access, Preprints
   type: member
   visible: true
+
+- name: Tristan Naumann
+  role: Member  
+  img: tjn.jpeg
+  url: http://tjn.mit.edu
+  github_username: tnaumann
+  interests: Open Source Software, Machine Learning for Health
+  type: member
+  visible: false
